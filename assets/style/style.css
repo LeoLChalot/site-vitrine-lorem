@@ -7,7 +7,6 @@
 	font-family: cursive;
 	/* overflow-x: hidden; */
 }
-
 html,
 body {
 	font-family: "Noto Sans KR", sans-serif;
@@ -67,7 +66,9 @@ section h2 {
 svg {
 	cursor: pointer;
 }
-/* ******************** NAVBAR ******************** */
+/* *********************************************** */
+/* **                    NAVBAR                 ** */
+/* *********************************************** */
 header {
 	position: absolute;
 	top: 10px;
@@ -142,8 +143,9 @@ nav .line:hover {
 	background-color: #f4cfdf;
 	color: #5784ba;
 }
-/* ******************** END NAVBAR ******************** */
-/* ********************* SECTIONS ********************* */
+/* ************************************************ */
+/* **                    SECTIONS                ** */
+/* ************************************************ */
 #service,
 #work,
 #about,
@@ -161,8 +163,9 @@ nav .line:hover {
 #a-propos {
 	justify-content: space-around;
 }
-/* ******************* END SECTIONS ******************* */
-/* ********************* A PROPOS ********************* */
+/* ************************************************* */
+/* **                    A PROPOS                 ** */
+/* ************************************************* */
 #a-propos-entreprise {
 	position: relative;
 	top: 30px;
@@ -196,8 +199,10 @@ button:hover {
 	background-color: #f4cfdf;
 	color: #5784ba;
 }
-/* ******************* END A PROPOS ******************* */
-/* ************** ABOUT **************** */
+
+/* *********************************************** */
+/* **                    ABOUT                  ** */
+/* *********************************************** */
 .equipe-content {
 	display: flex;
 	justify-content: space-around;
@@ -342,8 +347,9 @@ span {
 .card-service {
 	width: 300px;
 }
-/* ************** END ABOUT **************** */
-/* ************** WORK **************** */
+/* *********************************************** */
+/* **                     WORK                  ** */
+/* *********************************************** */
 .card-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
